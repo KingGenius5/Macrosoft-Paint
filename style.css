@@ -522,3 +522,66 @@ span {
 		transition: all .5s;
 }
 .highlight {margin-bottom:15px;}
+
+
+/*********************************************** REAL CSS ****************************************************
+
+/* Location Section
+********************************************************************* */
+#location {
+	padding: 10px 0 100px 0;
+}
+#location .icon {
+	font-size: 26px;
+}
+.pos {
+  width: 750px;
+  height: 450px;
+  border:15px double lightblue;
+}
+
+
+/* FAQ Section
+********************************************************************* */
+#faq {
+	padding: 100px 0 100px 0;
+  background-image: url("https://github.com/BorderCityHacks/bordercityhacks.github.io/blob/master/img/Cool-bg2.png?raw=true");
+  background-size: 50%;
+  background-repeat: repeat-x;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: lightblue;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
