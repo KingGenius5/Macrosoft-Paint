@@ -1,184 +1,189 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Macrosoft V2</title>
+
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Info windows</title>
+    <style>
+      html, body, #map-canvas {
+        margin: 0px;
+        padding: 0px
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.8/typicons.min.css'><link rel="stylesheet" href="./style.css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Header Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <!-- Header Section
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<header id="header">
+  <div class="main_nav">
+    <div class="container">
+      <a class="smoothscroll tilt" style="display:block;max-width:100px;min-width:70px;position:fixed;left:15px;top:18px;width:10%;z-index:10000" href="#header"><img src="https://fabric-it.com/wp-content/uploads/2019/02/mspaint-logo.jpg" width="75" height="50"></img></a>
+      <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
+      <nav>
+        <ul>
+          <li><a class="smoothscroll" href="#about">About</a></li>
+          <li><a class="smoothscroll" href="#faq">Questions</a></li>
+          <li><a class="smoothscroll" href="#sponsors">The Dough</a></li>
+          <li><a class="smoothscroll" href="#contact">Contact</a></li>
+          <li><a href="location.html">Birthplace</a></li>
+          <li><a href="bio.html">Author</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="title">
+    <div><span class="mincon heading"><img src="https://www.thurrott.com/wp-content/uploads/sites/2/2016/10/SplashScreen.scale-200.png" width="900" height="500" alt="Border City Hacks Logo"></img></span></div>
+<div><span id="slogan" data-text="Macrosoft Paint 2019"></span></div>
+    <a class="smoothscroll" href="#about">
+    <div class="mouse">
+      <div class="wheel"></div>
+    </div>
+    </a> </div>
+  <a class="smoothscroll" href="#about">
+  <div class="scroll-down"></div>
+  </a> </header>
 
-    <header id="header">
-      <div class="main_nav">
-        <div class="container">
-          <a class="smoothscroll tilt" style="display:block;max-width:100px;min-width:70px;position:fixed;left:15px;top:18px;width:10%;z-index:10000" href="#header"><img src="https://fabric-it.com/wp-content/uploads/2019/02/mspaint-logo.jpg" width="75" height="50"></img></a>
-          <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
-          <nav>
-            <ul>
-              <li><a class="smoothscroll" href="#about">About</a></li>
-              <li><a class="smoothscroll" href="#faq">Questions</a></li>
-              <li><a class="smoothscroll" href="#sponsors">The Dough</a></li>
-              <li><a class="smoothscroll" href="#contact">Contact</a></li>
-              <li><a href="#">Birthplace</a></li>
-              <li><a href="#">Author</a></li>
-            </ul>
-          </nav>
-        </div>
+<!-- About Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <h1>About</h1>
+      <div class="block"></div>
+      <p>Macrosoft Paint (formerly Baintprush) is a simple raster graphics editor that has been included with all versions of MacOS. The program opens and saves files in Mac bitmap (BMP), JPEG, GIF, PNG, and single-page TIFF formats. The program can be in color mode or two-color black-and-white, but there is no grayscale mode. For its simplicity and that it is included with MacOS, it rapidly became one of the most used applications in the early versions of MacOS, introducing many to painting on a computer for the first time. It is still widely used for simple image manipulation tasks.</p>
+    </div>
+    <div class="row">
+      <div class="six columns">
+        <h3><span class="typcn typcn-device-desktop icon"></span>What We Want</h3>
+        <p>We want to bring the magic of Microsoft Paint to your doorstep, to your Apple operating system.</p>
       </div>
-      <div class="title">
-        <div><span class="mincon heading"><img src="https://www.thurrott.com/wp-content/uploads/sites/2/2016/10/SplashScreen.scale-200.png" width="900" height="500" alt="Border City Hacks Logo"></img></span></div>
-    <div><span id="slogan" data-text="Macrosoft Paint 2019"></span></div>
-        <a class="smoothscroll" href="#about">
-        <div class="mouse">
-          <div class="wheel"></div>
-        </div>
-        </a> </div>
-      <a class="smoothscroll" href="#about">
-      <div class="scroll-down"></div>
-      </a> </header>
-
-      <!-- About Section
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-      <section id="about">
-        <div class="container">
-          <div class="row">
-            <h1>About</h1>
-            <div class="block"></div>
-            <p>Macrosoft Paint (formerly Baintprush) is a simple raster graphics editor that has been included with all versions of MacOS. The program opens and saves files in Mac bitmap (BMP), JPEG, GIF, PNG, and single-page TIFF formats. The program can be in color mode or two-color black-and-white, but there is no grayscale mode. For its simplicity and that it is included with MacOS, it rapidly became one of the most used applications in the early versions of MacOS, introducing many to painting on a computer for the first time. It is still widely used for simple image manipulation tasks.</p>
-          </div>
-          <div class="row">
-            <div class="six columns">
-              <h3><span class="typcn typcn-device-desktop icon"></span>What We Want</h3>
-              <p>We want to bring the magic of Microsoft Paint to your doorstep, to your Apple operating system.</p>
-            </div>
-            <div class="six columns">
-              <h3><span class="typcn typcn-pen icon"></span>Our Approach</h3>
-              <p>We take our approach and learning style from Bob Ross in which every misstep doesn't count as a mistake, but as a happy accident. So trust us, we know what we're doing.</p>
-            </div>
-          </div>
-          <p>What are you waiting for...</p>
-          <div class="highlight">
-      		<a href="https://jspaint.app/#local:c2ce87929008f" class="button" href="#">LAUNCH APP</a>
+      <div class="six columns">
+        <h3><span class="typcn typcn-pen icon"></span>Our Approach</h3>
+        <p>We take our approach and learning style from Bob Ross in which every misstep doesn't count as a mistake, but as a happy accident. So trust us, we know what we're doing.</p>
       </div>
-        </div>
-      </section>
+    </div>
+    <p>What are you waiting for...</p>
+    <div class="highlight">
+		<a href="https://jspaint.app/#local:c2ce87929008f" class="button" href="#">LAUNCH APP</a>
+</div>
+  </div>
+</section>
 
-      <!-- FAQ Section
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- FAQ Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-      <section id="faq">
-        <div class="container">
-          <h1>{ FAQ }</h1>
-          <div class="block"></div>
-          <button class="accordion">Why is this a thing?</button>
-      <div class="panel">
-        <p>We've all heard of Microsoft Paint, but it's about time that the Mac world got some love with a paint program of their own. That's where Macrosoft paint comes, it's also grander cuz it's MACRO.</p>
-      </div>
+<section id="faq">
+  <div class="container">
+    <h1>{ FAQ }</h1>
+    <div class="block"></div>
+    <button class="accordion">Why is this a thing?</button>
+<div class="panel">
+  <p>We've all heard of Microsoft Paint, but it's about time that the Mac world got some love with a paint program of their own. That's where Macrosoft paint comes, it's also grander cuz it's MACRO.</p>
+</div>
 
-      <button class="accordion">Is this really necessary?</button>
-      <div class="panel">
-        <p>If you're really asking that question, you clearly never had the joy of experimenting with Microsoft Paint.</p>
-      </div>
+<button class="accordion">Is this really necessary?</button>
+<div class="panel">
+  <p>If you're really asking that question, you clearly never had the joy of experimenting with Microsoft Paint.</p>
+</div>
 
-      <button class="accordion">How does this work?</button>
-      <div class="panel">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-      </div>
-          <button class="accordion">What can I make?</button>
-      <div class="panel">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-      </div>
-          <button class="accordion">How do I save?</button>
-      <div class="panel">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-      </div>
-          <button class="accordion">Where's the potential?</button>
-      <div class="panel">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-      </div>
-          <button class="accordion">Error 404...my question isn't on here!</button>
-      <div class="panel">
-        <p>No problem, shoots us an email at macropaint@gmail.com and we'll get back to you with an answer lickety-split!</p>
-      </div>
-        </div>
-      </section>
+<button class="accordion">How does this work?</button>
+<div class="panel">
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+</div>
+    <button class="accordion">What can I make?</button>
+<div class="panel">
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+</div>
+    <button class="accordion">How do I save?</button>
+<div class="panel">
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+</div>
+    <button class="accordion">Where's the potential?</button>
+<div class="panel">
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+</div>
+    <button class="accordion">Error 404...my question isn't on here!</button>
+<div class="panel">
+  <p>No problem, shoots us an email at macropaint@gmail.com and we'll get back to you with an answer lickety-split!</p>
+</div>
+  </div>
+</section>
 
+<!-- Sponsors Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-      <!-- Sponsors Section
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<section id="sponsors">
+  <div class="container">
+    <h1>Sponsors</h1>
+    <div class="block"></div>
 
-      <section id="sponsors">
-        <div class="container">
-          <h1>Sponsors</h1>
-          <div class="block"></div>
+    <h5>How are we launching this app? Who's funding our runway? Find out below...</h5>
 
-          <h5>How are we launching this app? Who's funding our runway? Find out below...</h5>
+    <a href="https://www.microsoft.com/en-us/" target="_blank">
+    <img class="grow center" src="http://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE2qVsJ?ver=3f74" width="60%" height="60%"></a>
 
-          <a href="https://www.microsoft.com/en-us/" target="_blank">
-          <img class="grow center" src="http://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE2qVsJ?ver=3f74" width="60%" height="60%"></a>
+    </div>
+</section>
 
-          </div>
-      </section>
+<!-- Testimonials Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
+<section id="testimonial">
+  <div class="container">
+    <div class="quoteLoop">
+      <blockquote class="quote"> <img src="https://specials-images.forbesimg.com/imageserve/5c76b4b84bbe6f24ad99c370/416x416.jpg?background=000000&cropX1=0&cropX2=4000&cropY1=0&cropY2=4000" width="100" height="100" alt=""/>
+        <h5>&nbsp;<br>
+          &rdquo;I made this thing by accident and it made me billions.&rdquo;<br>
+          <small>Bill Gates, The Man</small></h5>
+      </blockquote>
+      <blockquote class="quote"> <img src="https://www.biography.com/.image/t_share/MTY2MzU3Nzk2OTM2MjMwNTkx/elon_musk_royal_society.jpg" width="100" height="100" alt=""/>
+        <h5>&nbsp;<br>
+          &ldquo;I used Macrosoft Paint to design my Cybertruck, 10/10 would recommend.&rdquo;<br>
+          <small>Elon Musk, Memelord</small></h5>
+      </blockquote>
+    </>
+  </div>
+</section>
 
-      <!-- Testimonials Section
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- Contact Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-      <section id="testimonial">
-        <div class="container">
-          <div class="quoteLoop">
-            <blockquote class="quote"> <img src="https://specials-images.forbesimg.com/imageserve/5c76b4b84bbe6f24ad99c370/416x416.jpg?background=000000&cropX1=0&cropX2=4000&cropY1=0&cropY2=4000" width="100" height="100" alt=""/>
-              <h5>&nbsp;<br>
-                &rdquo;I made this thing by accident and it made me billions.&rdquo;<br>
-                <small>Bill Gates, The Man</small></h5>
-            </blockquote>
-            <blockquote class="quote"> <img src="https://www.biography.com/.image/t_share/MTY2MzU3Nzk2OTM2MjMwNTkx/elon_musk_royal_society.jpg" width="100" height="100" alt=""/>
-              <h5>&nbsp;<br>
-                &ldquo;I used Macrosoft Paint to design my Cybertruck, 10/10 would recommend.&rdquo;<br>
-                <small>Elon Musk, Memelord</small></h5>
-            </blockquote>
-          </>
-        </div>
-      </section>
+<section id="contact">
+  <div class="container">
+    <h1>Contact</h1>
+    <div class="block"></div>
 
+    <h5>Feel free to email us at macropaint@gmail.com if you have any inquries, or vist us on our social media platforms to stay connected.</h5>
+    <a href="https://www.facebook.com/moh.tifak/" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-256.png" class="soc grow" width="20%" height="20%"></img></a>
+    <a href="https://www.instagram.com/king_genius_5/" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-256.png" class="soc grow" width="20%" height="20%"></img></a>
+    <a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-256.png" class="soc grow" width="20%" height="20%"></img></a>
 
-      <!-- Contact Section
-      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  </div>
+</section>
 
-      <section id="contact">
-        <div class="container">
-          <h1>Contact</h1>
-          <div class="block"></div>
+<!-- Footer Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-          <h5>Feel free to email us at macropaint@gmail.com if you have any inquries, or vist us on our social media platforms to stay connected.</h5>
-          <a href="https://www.facebook.com/moh.tifak/" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-256.png" class="soc grow" width="20%" height="20%"></img></a>
-          <a href="https://www.instagram.com/king_genius_5/" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-256.png" class="soc grow" width="20%" height="20%"></img></a>
-          <a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-256.png" class="soc grow" width="20%" height="20%"></img></a>
+<footer>
+  <div class="container">
+    <div class="nine columns">
+      <p>Macrosoft 2019-2020.</p>
+      <p>© Used under the MTifak License.</p>
+    </div>
+  </div>
+</footer>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script><script  src="./script.js"></script>
 
-        </div>
-      </section>
-
-
-      <footer>
-        <div class="container">
-          <div class="nine columns">
-            <p>Macrosoft 2019-2020.</p>
-            <p>© Used under the MTifak License.</p>
-          </div>
-        </div>
-      </footer>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
