@@ -2,14 +2,19 @@
 
 ## <a href="https://kinggenius5.github.io/Macrosoft-Paint/">MacPaint</a>
 
-Macrosoft Paint brings the magic and joy of Microsoft Paint to MacOS. This is merely a front-end design and the real thing is a work in progress. If you want to get a taste of what's to come, open the site and press "Launch App."
-
-
-
-P.S. I worked on this and the majority of my projects in Codepen (front-end playground) so the commits might be funny.
+Macrosoft Paint brings the magic and joy of Microsoft Paint to the MacOS environment.
 
 ### Screenshots
 
-![Main page of the Macrosoft Paint web application.](https://github.com/KingGenius5/Sprint-Final/blob/master/Main.png?raw=true)
+![This is home on the landing page.](https://github.com/KingGenius5/Macrosoft-Paint/blob/master/Demo_Pics/Home.png?raw=true)
 
-![A snapshot between the about page and FAQ.](https://github.com/KingGenius5/Sprint-Final/blob/master/Pages.png?raw=true)
+![This is the about page which also has the download button.](https://github.com/KingGenius5/Macrosoft-Paint/blob/master/Demo_Pics/About.png?raw=true)
+
+
+![This shows the PaintProject ZIP file.](https://github.com/KingGenius5/Macrosoft-Paint/blob/master/Demo_Pics/Zip.png?raw=true)  ![This shows the ZIP file unzipped.](https://github.com/KingGenius5/Macrosoft-Paint/blob/master/Demo_Pics/ZipTwo.png?raw=true)
+
+
+![This shows the launcher when you open the ZIP file.](https://github.com/KingGenius5/Macrosoft-Paint/blob/master/Demo_Pics/Launcher.png?raw=true)  ![This shows the privacy pop-up when clicking on the PaintProject executable file.](https://github.com/KingGenius5/Macrosoft-Paint/blob/master/Demo_Pics/Privacy.png?raw=true)
+
+
+
