@@ -1,6 +1,6 @@
 # Macrosoft Paint
 
-## <a href="https://kinggenius5.github.io/Macrosoft-Paint/" target="_blank">MacPaint</a>
+## <a href="https://kinggenius5.github.io/Macrosoft-Paint/">MacPaint</a>
 
 Macrosoft Paint brings the magic and joy of Microsoft Paint to MacOS. This is merely a front-end design and the real thing is a work in progress. If you want to get a taste of what's to come, open the site and press "Launch App."
 
