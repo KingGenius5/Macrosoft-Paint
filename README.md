@@ -6,8 +6,8 @@ Macrosoft Paint brings the magic and joy of Microsoft Paint to the MacOS environ
 
 
 ### Tools Used
-- __Frontend__ - [HTML](https://www.w3schools.com/html/) [CSS](https://www.w3schools.com/css/) [Bootstrap](https://getbootstrap.com/) [JavaScript](https://www.javascript.com/) 
-- __Backend__ - [Python](https://www.python.org/) [Pygame](https://www.pygame.org/news)
+- __Frontend__ - [HTML](https://www.w3schools.com/html/), [CSS](https://www.w3schools.com/css/), [Bootstrap](https://getbootstrap.com/), [JavaScript](https://www.javascript.com/) 
+- __Backend__ - [Python](https://www.python.org/), [Pygame](https://www.pygame.org/news)
 - __Executable File__ - [cx_Freeze](https://anthony-tuininga.github.io/cx_Freeze/)
 
 ### Set-up Instructions
