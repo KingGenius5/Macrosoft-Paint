@@ -33,5 +33,5 @@ Macrosoft Paint brings the magic and joy of Microsoft Paint to the MacOS environ
 
 
 
-License under the [MIT License](LICENSE)
+License under the [MIT License](https://opensource.org/licenses/MIT)
 
