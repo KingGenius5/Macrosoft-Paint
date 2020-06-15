@@ -1,7 +1,5 @@
 # Macrosoft Paint
 
-## <a href="https://kinggenius5.github.io/Macrosoft-Paint/">MacPaint</a>
-
 Macrosoft Paint brings the magic and joy of Microsoft Paint to the MacOS environment.
 
 
