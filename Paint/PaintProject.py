@@ -1,5 +1,7 @@
 # PaintProject.py
 
+#Will have to break down this code into multiple componenets and make it OOP. This is not efficient.
+
 from pygame import *
 from tkinter import *
 from tkinter import filedialog
