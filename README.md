@@ -10,7 +10,7 @@ Macrosoft Paint brings the magic and joy of Microsoft Paint to the MacOS environ
 
 ### Set-up Instructions
 
-- Follow the link to the landing page where you'll land on the home screen.
+- Follow the link to the landing page where you'll land on the home screen
 ![This is home on the landing page.](https://github.com/KingGenius5/Macrosoft-Paint/blob/master/Demo_Pics/Home.png?raw=true)
 
 - Scroll down to the about page and click the DOWNLOAD button which will download a ZIP file.
