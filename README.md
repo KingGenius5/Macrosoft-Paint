@@ -13,10 +13,10 @@ Macrosoft Paint brings the magic and joy of Microsoft Paint to the MacOS environ
 - Follow the link to the landing page where you'll land on the home screen
 ![This is home on the landing page.](https://github.com/KingGenius5/Macrosoft-Paint/blob/master/Demo_Pics/Home.png?raw=true)
 
-- Scroll down to the about page and click the DOWNLOAD button which will download a ZIP file.
+- Scroll down to the about page and click the DOWNLOAD button which will download a ZIP file
 ![This is the about page which also has the download button.](https://github.com/KingGenius5/Macrosoft-Paint/blob/master/Demo_Pics/About.png?raw=true)
 
-- Click on the ZIP folder to unzip it. Afterwards, click on the PaintProject folder to open it.
+- Click on the ZIP folder to unzip it. Afterwards, click on the PaintProject folder to open it
 ![This shows the ZIP file unzipped.](https://github.com/KingGenius5/Macrosoft-Paint/blob/master/Demo_Pics/ZipTwo.png?raw=true)
 
 - Disreagard every other file and click on the executable file titled PaintProject. You'll get a pop-up warning that this app is downloaded from an unverified source. Go to your privacy settings and allow just from this user.
