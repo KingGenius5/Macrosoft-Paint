@@ -2164,7 +2164,9 @@ while running:
                 print("saving error")
                 # pass #prevent crashing
             '''
-
+            
+        ###Still broken...need to wrap up quick
+        
         #################YOU NEED TO FINISH open
         if openRect.collidepoint(mx, my):
             try:
