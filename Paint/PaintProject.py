@@ -1890,6 +1890,8 @@ while running:
     #######################
 
     ###using the TOOLS
+    
+    ###will need to update or get rid of music player
     if mb[0] == 1:
         if canvasRect.collidepoint(mx, my):  # if the tools are clicked and the canvas is clicked
             screen.set_clip(canvasRect)  # only the canvas can be "updated"
