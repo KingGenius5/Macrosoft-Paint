@@ -29,8 +29,9 @@ More details and server-side maintenance on the way...
 - This is what'll show after clicking the blue button. From here you can exlpore the features.
 ![This is the main hub where all the features are accessible.](https://github.com/KingGenius5/Macrosoft-Paint/blob/master/Demo_Pics/Features.png?raw=true)
 
+# Features
 
-
+Display features with Gif or something
 
 License under the [MIT License](https://opensource.org/licenses/MIT)
 
