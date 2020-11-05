@@ -1,6 +1,6 @@
 # Macrosoft Paint
 
-Macrosoft Paint brings the magic and joy of Microsoft Paint to the MacOS environment.
+Experience the iconic raster graphics editor and joy MS Paint brings in the MacOS environment.
 
 ### Tools Used
 - __Frontend__ - [HTML](https://www.w3schools.com/html/), [CSS](https://www.w3schools.com/css/), [Bootstrap](https://getbootstrap.com/), [JavaScript](https://www.javascript.com/) 
