@@ -1,5 +1,7 @@
 /*----------------------------------------------------*/
 /* Quote Loop
+
+Using outdated javascript, will need new methods and to update style
 ------------------------------------------------------ */
 
 function fade($ele) {
