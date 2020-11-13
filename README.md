@@ -2,8 +2,6 @@
 
 Experience the iconic raster graphics editor and joy MS Paint brings in the MacOS environment.
 
-### How to Use
-
 ### Tools Used
 - __Frontend__ - [HTML](https://www.w3schools.com/html/), [CSS](https://www.w3schools.com/css/), [Bootstrap](https://getbootstrap.com/), [JavaScript](https://www.javascript.com/) 
 - __Backend__ - [Python](https://www.python.org/), [Pygame](https://www.pygame.org/news)
