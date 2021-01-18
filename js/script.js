@@ -240,7 +240,7 @@ for (i = 0; i < acc.length; i++) {
 
 $(function(){
   $('#slogan').typer({
-    search: 'Macrosoft Paint 2019',
+    search: 'Macrosoft Paint 2021',
     replace: ['paint stuff', 'become Bob Ross', 'get inspired','have fun','build your canvas','be curious','live SPD']
   })
 })
